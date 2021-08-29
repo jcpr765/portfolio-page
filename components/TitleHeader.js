@@ -27,7 +27,7 @@ const TitleHeader = ({ name, title }) => {
 
         .bottom-section {
             background-color: ${MAIN_COLORS.BLUE};
-            height: 10px;
+            height: 5px;
             width: 70%;
             margin-bottom: 3.125rem;
         }
