@@ -1,9 +1,9 @@
 import React from "react";
 import MAIN_COLORS from "../styles/colors";
 
-const TitleHeader = ({ name, title }) => {
+const ResumeHeader = ({ name, title }) => {
   return (
-    <div className="title-header">
+    <header className="title-header">
       <div className="top-section" />
 
       <span>{name}</span>
@@ -43,8 +43,8 @@ const TitleHeader = ({ name, title }) => {
         }
           `}
       </style>
-    </div>
+    </header>
   );
 };
 
-export default TitleHeader;
+export default ResumeHeader;
