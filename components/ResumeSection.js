@@ -3,8 +3,6 @@ import SectionDetails from "./section-components/SectionDetails";
 import SectionHeader from "./section-components/SectionHeader";
 
 const ResumeSection = ({ title, records }) => {
-  console.log(title);
-  console.log(records);
   return (
     <div>
       <SectionHeader title={title} />
