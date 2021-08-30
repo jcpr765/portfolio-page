@@ -1,11 +1,12 @@
-import Head from "next/head";
-import TitleHeader from "../components/TitleHeader";
+import ResumeHeader from "../components/ResumeHeader";
+import ResumeInfo from "../components/ResumeInfo";
 
 export default function Home() {
   return (
     <>
       <div className="container">
-        <TitleHeader name="Juan Carlos Morales" title="Software Engineer" />
+        <ResumeHeader name="Juan Carlos Morales" title="Software Engineer" />
+        <ResumeInfo />
       </div>
       <style>{`
       .container{
