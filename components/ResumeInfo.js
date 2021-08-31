@@ -18,6 +18,7 @@ const ResumeInfo = () => {
       <style jsx global>{`
         .resume-info {
           display: flex;
+          padding-bottom: 10vh;
         }
 
         .left-column,
