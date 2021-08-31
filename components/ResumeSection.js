@@ -16,7 +16,8 @@ const ResumeSection = ({ title, records }) => {
       <style jsx>
         {`
           .resume-section {
-            max-width: 33vw;
+            width: 33vw;
+            max-width: 600px;
           }
 
           .role,
