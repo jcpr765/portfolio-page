@@ -8,13 +8,13 @@ const SectionDetails = ({ details, displayAsList = true }) => {
           <li key={idx}>{detail}</li>
         ))}
       </ul>
-      <style>{`
-      ul {
-        ${!displayAsList ? "list-style-type: none;" : ""}
-      }
-      li {
-        margin-bottom: 10px;
-      }
+      <style jsx>{`
+        ul {
+          list-style-type: ${displayAsList ? "initial" : "none"};
+        }
+        li {
+          margin-bottom: 10px;
+        }
       `}</style>
     </>
   );
