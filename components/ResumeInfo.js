@@ -15,7 +15,7 @@ const ResumeInfo = () => {
           <ResumeSection key={idx} {...section} />
         ))}
       </div>
-      <style jsx>{`
+      <style jsx global>{`
         .resume-info {
           display: flex;
         }
