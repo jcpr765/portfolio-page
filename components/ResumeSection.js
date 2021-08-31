@@ -6,12 +6,12 @@ const ResumeSection = ({ title, records }) => {
   return (
     <div className="resume-section">
       <SectionHeader title={title} />
-      {records.map(({ details, displayAsList, role, employer }) => (
-        <>
+      {records.map(({ details, displayAsList, role, employer }, idx) => (
+        <div key={idx}>
           {role && <p className="role">{role}</p>}
           {employer && <p className="employer">{employer}</p>}
           <SectionDetails details={details} displayAsList={displayAsList} />
-        </>
+        </div>
       ))}
       <style jsx>
         {`
