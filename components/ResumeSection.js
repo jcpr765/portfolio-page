@@ -4,7 +4,7 @@ import SectionHeader from "./section-components/SectionHeader";
 
 const ResumeSection = ({ title, records }) => {
   return (
-    <div>
+    <div className="resume-section">
       <SectionHeader title={title} />
       {records.map(({ details, displayAsList, role, employer }) => (
         <>
@@ -13,17 +13,21 @@ const ResumeSection = ({ title, records }) => {
           <SectionDetails details={details} displayAsList={displayAsList} />
         </>
       ))}
-      <style>
+      <style jsx>
         {`
-            .role, .employer {
-                font-size: 1.2rem;
-            }
-
-          .role {
-              font-weight: 600;
+          .resume-section {
+            max-width: 33vw;
           }
 
-          `}
+          .role,
+          .employer {
+            font-size: 1.2rem;
+          }
+
+          .role {
+            font-weight: 600;
+          }
+        `}
       </style>
     </div>
   );
