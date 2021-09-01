@@ -12,9 +12,15 @@ export const leftColumnData = [
     title: "Contact Details",
     records: [
       {
-        details: [
-          "juan.c.morales.personal@gmail.com",
-          "www.linkedin.com/in/jmoralesleduc",
+        links: [
+          {
+            text: "juan.c.morales.dev@gmail.com",
+            to: "mailto:juan.c.morales.dev@gmail.com",
+          },
+          {
+            text: "www.linkedin.com/in/juancmoralesdev",
+            to: "https://www.linkedin.com/in/juancmoralesdev",
+          },
         ],
         displayAsList: false,
       },
@@ -40,7 +46,7 @@ export const leftColumnData = [
         details: [
           "Programming languages: JavaScript, Python, Java",
           "Frameworks: React / NextJS, Django, NodeJS, Redux",
-          "AWS experience with ELBs",
+          "AWS experience with ELB / EC2",
           "Version Control experience with Git",
           "Agile development experience",
           "Bilingual (English and Spanish)",
