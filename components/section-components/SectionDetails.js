@@ -11,6 +11,7 @@ const SectionDetails = ({ details, displayAsList = true }) => {
       <style jsx>{`
         ul {
           list-style-type: ${displayAsList ? "initial" : "none"};
+          padding-left: ${displayAsList ? "20px" : "0"};
         }
         li {
           margin-bottom: 10px;
