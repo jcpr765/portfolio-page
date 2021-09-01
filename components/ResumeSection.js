@@ -1,16 +1,20 @@
 import React from "react";
 import SectionDetails from "./section-components/SectionDetails";
 import SectionHeader from "./section-components/SectionHeader";
+import SectionLinks from "./section-components/SectionLinks";
 
 const ResumeSection = ({ title, records }) => {
   return (
     <div className="resume-section">
       <SectionHeader title={title} />
-      {records.map(({ details, displayAsList, role, employer }, idx) => (
+      {records.map(({ details, displayAsList, role, employer, links }, idx) => (
         <div key={idx}>
           {role && <p className="role">{role}</p>}
           {employer && <p className="employer">{employer}</p>}
-          <SectionDetails details={details} displayAsList={displayAsList} />
+          {details && (
+            <SectionDetails details={details} displayAsList={displayAsList} />
+          )}
+          {links && <SectionLinks links={links} />}
         </div>
       ))}
       <style jsx>
