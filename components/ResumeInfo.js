@@ -35,6 +35,27 @@ const ResumeInfo = () => {
           padding-left: 10px;
           margin: 0 auto 0 0;
         }
+
+        @media screen and (max-width: 1400px) {
+          .left-column,
+          .right-column {
+            flex: none;
+          }
+
+          .left-column > div {
+            margin: 0;
+            padding: 0;
+          }
+
+          .right-column > div {
+            margin: 0;
+            padding: 0;
+          }
+
+          .resume-info {
+            display: block;
+          }
+        }
       `}</style>
     </div>
   );

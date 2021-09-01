@@ -32,6 +32,14 @@ const ResumeSection = ({ title, records }) => {
           .role {
             font-weight: 600;
           }
+
+          @media screen and (max-width: 1400px) {
+            .resume-section {
+              width: 75%;
+              max-width: 100%;
+              margin: 0 auto;
+            }
+          }
         `}
       </style>
     </div>
