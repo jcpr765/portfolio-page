@@ -5,7 +5,6 @@ const ResumeHeader = ({ name, title }) => {
   return (
     <header className="title-header">
       <div className="top-section" />
-
       <span>{name}</span>
       <h3>{title}</h3>
       <div className="bottom-section" />
@@ -34,7 +33,7 @@ const ResumeHeader = ({ name, title }) => {
 
           span {
             font-weight: 600;
-            font-size: 3rem;
+            font-size: 2.5rem;
           }
 
           h3 {
