@@ -28,11 +28,11 @@ const ResumeInfo = () => {
 
         .left-column > div {
           margin: 0 0 0 auto;
-          padding-right: 10px;
+          padding-right: 5%;
         }
 
         .right-column > div {
-          padding-left: 10px;
+          padding-left: 5%;
           margin: 0 auto 0 0;
         }
 
