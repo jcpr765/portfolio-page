@@ -45,7 +45,7 @@ export const leftColumnData = [
       {
         details: [
           "Programming languages: JavaScript, Python, Java",
-          "Frameworks: React / NextJS, Django, NodeJS, Redux",
+          "Experienced with React / NextJS, Django, NodeJS, Redux",
           "AWS experience with ELB / EC2",
           "Version Control experience with Git",
           "Agile development experience",
